@@ -164,11 +164,13 @@ main{
 }
 
 .card-container{
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    gap: 10px;
+    display: grid;
+    /* autofit sirve para rellenar, minmax son los parametros del minimimo y máximo de los items */
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1.5fr));
+    gap: 35px;
+    padding: 2vw;
     width: 100%;
+    border-bottom: 10px;
 }
 
 .card-container img{
@@ -195,8 +197,11 @@ main{
 }
 
 .card-content input{
-    background-color: #f00075;
+    border: 0;
+    background-color: #ff0000;
     padding: 5px;
+    cursor: pointer;
+    font-weight: bold;
 }
 
 /* Footer */
