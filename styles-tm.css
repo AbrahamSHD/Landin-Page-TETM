@@ -117,7 +117,7 @@ body{
 .jumbotron-items a{
     color: #000;
     padding: 10px;
-    width: 11vw;
+    width: 15vw;
     background-color: #fff;
     border-radius: 5px;
     text-decoration: none;
@@ -411,19 +411,40 @@ main{
     .jumbotron-items a{
         color: #000;
         padding: 10px;
-        width: 50vw;
+        width: 55vw;
         background-color: #fff;
         border-radius: 5px;
         text-decoration: none;
         display: flex;
         justify-content: space-around;
         align-items: center;
+        align-self: center;
         font-weight: bold;
+        margin-top: 20px;
+
     }
     
     .jumbotron-items a i{
+        margin: 2px;
         filter: invert(100%);
     }
+
+    /* p-cards */
+
+    .p-cards{
+        display: flex;
+        justify-content: center;
+        font-size: 16px;
+        border: 0;
+        margin-bottom: 40px;
+    }
+
+    .p-cards h2{
+        font-size: 18px;
+    }
+
+
+    /* Footer */
 
     .footer-right{
         margin-top: 50px;
