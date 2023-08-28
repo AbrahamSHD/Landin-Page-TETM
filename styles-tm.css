@@ -443,6 +443,78 @@ main{
         font-size: 18px;
     }
 
+    /* login */
+
+    .login-container{
+        margin: 10px;
+        border: 10px;
+        padding: 10px;
+        width: 100%;
+        background-image: url(img/imagen5.jpg);
+        background-size: cover;
+        border-radius: 8px;
+        display: flex;
+        box-sizing: border-box;
+    }
+
+    .form-cont{
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+        box-sizing: border-box;
+        align-items: center;
+        padding: 5px;
+    }
+
+    .inf-login{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-sizing: border-box;
+        margin: 5px;
+    }
+
+    .input{
+        display: flex;
+        box-sizing: border-box;
+        justify-content: flex-start;
+        align-items: center;
+        margin: 5px;
+    }
+
+    .button-submit{
+        display: flex;
+        box-sizing: border-box;
+        justify-content: flex-start;
+        align-items: center;
+        margin: 5px;
+    }
+
+    .input input{
+        width: 100%;
+        display: flex;
+        align-content: center;
+        align-items: center;
+        margin: 5px;
+        border-radius: 2px;
+        background: none;
+        border: none;
+        outline: none;
+    }
+
+    .button-submit input{
+        display: flex;
+        box-sizing: border-box;
+        align-content: center;
+        align-items: center;
+        width: 100%;
+        margin: 5px;
+        padding: 4px;
+        font-weight: bold;
+        border-radius: 2px;
+        background-color: #ff0000;
+        font-size: 12px;
+    }
 
     /* Footer */
 
