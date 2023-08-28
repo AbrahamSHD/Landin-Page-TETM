@@ -369,6 +369,62 @@ main{
         font-size: 20px;
     }
 
+    /* .jumbotron{
+        
+    } */
+    
+    .jumbotron-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .img-container{
+        padding: 10px;
+    }
+
+    .img-container img{
+        width: 100%;
+    }
+
+    .jumbotron-items{
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        gap: 10px;
+    }
+
+    .jumbotron-items h3{
+        font-size: 40px;
+        font-weight: bold;
+    }
+    
+    .jumbotron-items p{
+        max-width: 650px;
+        font-size: 16px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .jumbotron-items a{
+        color: #000;
+        padding: 10px;
+        width: 50vw;
+        background-color: #fff;
+        border-radius: 5px;
+        text-decoration: none;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        font-weight: bold;
+    }
+    
+    .jumbotron-items a i{
+        filter: invert(100%);
+    }
+
     .footer-right{
         margin-top: 50px;
         justify-content: center;
