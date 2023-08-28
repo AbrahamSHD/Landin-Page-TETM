@@ -78,9 +78,9 @@ body{
 
 .jumbotron-container{
     display: flex;
-    justify-content: space-around;
     align-items: center;
     flex-direction: row;
+    padding: 30px;
 }
 
 .img-container{
@@ -92,8 +92,8 @@ body{
 }
 
 .jumbotron-items{
-    padding: 6vw;
-    width: 100%;
+    padding: 5vw;
+    width: 50%;
     height: 100%;
     display: flex;
     box-sizing: border-box;
@@ -115,13 +115,14 @@ body{
 .jumbotron-items a{
     color: #000;
     padding: 10px;
-    width: 10.5vw;
+    width: 11vw;
     background-color: #fff;
     border-radius: 5px;
     text-decoration: none;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
+    font-weight: bold;
 }
 
 .jumbotron-items a i{
@@ -163,18 +164,35 @@ main{
     width: 100%;
 }
 
+.p-cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    color: #fff;
+    font-size: 25px;
+}
+
+.font-blod{
+    font-size: 35px;
+    font-weight: bold;
+}
+
 .card-container{
     display: grid;
-    /* autofit sirve para rellenar, minmax son los parametros del minimimo y máximo de los items */
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1.5fr));
-    gap: 35px;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 300px));
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
     padding: 2vw;
     width: 100%;
     border-bottom: 10px;
 }
 
 .card-container img{
-    width: 300px;
+    width: 100%;
 }
 
 .card{
@@ -185,7 +203,6 @@ main{
     flex-direction: column;
     gap: 20px;
     padding: 20px;
-    width: 350px;
     border-radius: 10px;
 }
 
