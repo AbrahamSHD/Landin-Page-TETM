@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    /* outline: 2px solid blue; */
+    outline: 2px solid blue;
     color: #fff;
 }
 
@@ -178,8 +178,6 @@ main{
     gap: 10px;
     width: 100%;
     color: #fff;
-    font-size: 25px;
-    margin: 10px;
 }
 
 .font-b{
@@ -190,12 +188,15 @@ main{
 .card-container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(80px, 200px));
+    /* flex-wrap: wrap;
+    flex-direction: row ; */
     gap: 30px;
     justify-content: center;
     align-items: center;
     padding: 2vw;
     width: 100%;
     border-bottom: 10px;
+    box-sizing: border-box;
 }
 
 .card-container img{
@@ -203,6 +204,7 @@ main{
 }
 
 .card{
+    box-sizing: border-box;
     background-color: #161616;
     display: flex;
     justify-content: center;
@@ -211,6 +213,8 @@ main{
     gap: 20px;
     padding: 20px;
     border-radius: 10px;
+    max-width: 280px;
+    max-height: 500px;
 }
 
 .card-content{
@@ -218,6 +222,8 @@ main{
     display: flex;
     flex-direction: column;
     gap: 10px;
+    font-size: clamp(10px, 15px, 20px);
+    text-wrap: wrap;
 }
 
 .card-content input{
@@ -226,6 +232,11 @@ main{
     padding: 5px;
     cursor: pointer;
     font-weight: bold;
+    font-size: clamp(10px, 15px, 20px);
+}
+
+.card-content input:active{
+    background-color: #7a0a0a;
 }
 
 /* Login */
@@ -282,11 +293,15 @@ main{
 .button-submit input{
     width: 50%;
     margin: 5px;
-    padding: 4px;
+    padding: 5px;
     font-weight: bold;
     border-radius: 2px;
     background-color: #ff0000;
     font-size: 12px;
+}
+
+.button-submit input:active{
+    background-color: #7a0a0a;
 }
 
 /* Footer */
