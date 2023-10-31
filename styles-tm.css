@@ -78,7 +78,11 @@ body{
     text-shadow: 0 0 20px #fff;
 }
 
-.nav-responsive-ul{
+.input-button-responsive{
+    display: none;
+}
+
+.nav{
     display: none;
 }
 
