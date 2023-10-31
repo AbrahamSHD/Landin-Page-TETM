@@ -483,6 +483,7 @@ main{
         text-shadow: 0 0 20px #fff;
       }
       .nav-wrapper{
+        display: block;
         position: relative;
         overflow: hidden;
         overflow-y: auto;
@@ -498,6 +499,7 @@ main{
       }
 
       nav {
+        display: block;
         text-align: left;
         margin-left: 25%;
       }
